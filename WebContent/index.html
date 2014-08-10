@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Search</title>
+<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/redmond/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/725b2a2115b/integration/jqueryui/dataTables.jqueryui.css">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="css/app.css">
+
+<script src="lib/jquery-1.11.1.min.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/plug-ins/725b2a2115b/integration/jqueryui/dataTables.jqueryui.js"></script>
+<script src="js/app.js"></script>
+<script src="js/utility.js"></script>
+
+<script>
+$(function(){
+	var app = new App();
+	app.initialize();
+
+});
+</script>
+</head>
+<body>
+	<label class="search_label" for="search"> Search Github Repositories: </label>
+	<input id="search" size="25" type="text" />
+	<button id="searchBtn">Go</button>
+	<div id="errorMsg"></div>
+	<div id="loading"></div>
+	<div id="searchResults">
+		<table id="searchResultsTable" class='display' cellspacing="0" width="100%"></table>
+	</div>
+	<div id="resultDetails"></div>
+</body>
+</html>

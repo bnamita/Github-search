@@ -1,0 +1,133 @@
+#search {
+	margin-top: 50px;
+	height: 16px;
+	width: 300px;
+	padding: 7px 8px;
+	color: #333;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+#searchBtn {
+	height: 30px;
+}
+
+#searchResults {
+	width: 600px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 5%;
+	
+}
+
+#loading{
+	background-image: url('../images/loading.gif');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	display: none;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+#resultDetails {
+	float: right;
+	margin-top: 150px;
+	height: 250px;
+	width: 45%;
+	margin-right: 20px;
+	padding: 7px 8px;
+	color: #333;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+	display: none;
+}
+
+.search_label {
+	margin-left: 10%;
+	font-size: 22px;
+	color: #4183c4
+}
+
+.result_text {
+	float: right;
+}
+
+.title_text {
+	float: left;
+}
+
+.result_header{
+	color: #4183c4;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+dl {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+dl dt {
+	color: #000;
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 5px;
+	width: 100px;
+}
+
+dl dd {
+	margin: 2px 0;
+	padding: 5px 0;
+	min-height: 20px;
+	overflow: hidden;
+}
+
+.fixed {
+	position: fixed;
+	top: 20px;
+	margin-left: 700px;
+}
+
+#errorMsg {
+	display: none;
+	background-image: url('../images/error.jpg');
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	margin-left: 20%;
+	height: 50px;
+	padding-left: 45px;
+	margin-top: 50px;
+	font-size: 20px;
+	padding-top: 5px;
+	height: 50px;
+}
+
+a{
+	color: #4183c4;
+	cursor: auto;
+}
+
+.search_table_column{
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+table.dataTable thead th {
+	text-align: left;
+	font-size: 18px;	
+}
